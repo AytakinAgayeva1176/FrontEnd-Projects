@@ -1,0 +1,184 @@
+.into-background{
+    background: url("../images/bg-pattern.png"),linear-gradient(to left,#7b4397,#dc2430);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+}
+.into-background .content{
+    width: 70%;
+    margin: 0 auto;
+}
+.into-background h1{
+    font-weight: 100;
+    line-height: 60px;
+}
+.into-background a{
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 1px solid white;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 20px;
+    color: white;
+    transition: all 0.3s linear;
+}
+.into-background a:hover{
+    border-color: gold;
+    background: gold;
+}
+
+@media screen and (max-width: 400px) {
+    .into-background{
+        text-align: center;
+    }
+    .into-background h1{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .into-background .col-md-7{
+        margin-bottom: 20px !important;
+        margin-top: 20px !important;
+    }
+}
+
+.discover-backgroud{
+    padding-top:100px;
+    padding-bottom: 100px;
+    background: gold;
+    text-align: center;
+    color: white;
+}
+.discover-backgroud a{
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: 0 10px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    background: black;
+    color: white;
+    transition: all 0.3s linear;
+}
+.unlimited-background{
+    text-align: center;
+}
+.unlimited-background .row{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.unlimited-background hr{
+    max-width: 100px;
+}
+.unlimited-background .fa{
+    color: #7b4397;
+    font-size: 100px;
+}
+.unlimited-background .col-md-6{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.stop-waiting{
+    background: url("../images/bg-cta.jpg");
+    background-size: cover;
+    position: relative;
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+.stop-waiting .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.40);
+}
+.stop-waiting .content{
+    position: relative;
+    color: white;
+}
+.stop-waiting h1{
+    font-weight: 100;
+    font-size: 50px;
+}
+.stop-waiting a{
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 1px solid white;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 20px;
+    color: white;
+    transition: all 0.3s linear;
+}
+.stop-waiting a:hover{
+    border-color: gold;
+    background: gold;
+}
+.we-love{
+    background: #fdcc52;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.we-love i{
+    color: red;
+}
+.we-love ul{
+    margin:0;
+    padding: 0;
+}
+.we-love ul li{
+    list-style: none;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 75px;
+    border-radius: 100%;
+    margin: 20px 10px;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+.we-love ul li:nth-child(1){
+    background: #1da1f2;
+   
+}
+.we-love ul li:nth-child(1):hover{
+    background: #0d95e8;
+}
+.we-love ul li:nth-child(2){
+    background: #3b5998;
+}
+.we-love ul li:nth-child(2):hover{
+    background: #344e86;
+}
+.we-love ul li:nth-child(3){
+    background: #dd4b39;
+}
+.we-love ul li:nth-child(3):hover{
+    background: #d73925;
+}
+.we-love ul li i{
+    font-size: 40px;
+    color: white;
+}
+.footer{
+    text-align: center;
+    background: black;
+    color: rgba(255, 255, 255, 0.664);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer p{
+    margin: 2px 0;
+    padding: 0;
+}
+.footer a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.664);
+    transition: all 0.3s linear;
+}
+.footer a:hover{
+    color: gold;
+}
