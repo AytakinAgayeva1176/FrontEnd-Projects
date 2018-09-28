@@ -1,0 +1,196 @@
+body{
+    position: relative;
+}
+.navbar{
+    border-bottom: #1886c7 1px solid;
+}
+.navbar .navbar-brand{
+    color: #1886c7;
+    font-size: 24px;
+}
+.bg-dark{
+    background-color: rgba(0,0,0,1) !important;
+}
+.nav-link{
+    color: white !important;
+    text-transform: uppercase;
+    transition: color .5s ease;
+}
+.headerSection{
+    background: url("http://barneslogistics.co.uk/wp-content/uploads/2016/10/road-mountains-street-cliff-1030x687.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+.headerSection h1{
+   color: #ffffff;
+}
+.headerSection .overlay{
+    background: rgba(0,0,0, .7);
+}
+.headerSection .row{
+    height: 100vh;
+}
+.headerSection span{
+    color: #1886c7 !important;
+}
+.btn-outline-primary{
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 0;
+}
+.features .fa{
+    font-size: 40px;
+}
+.features{
+    background: rgb(180, 175, 175);
+}
+.features p{
+    font-size: 14px;
+}
+.feature{
+  transition: color .5s ease;
+}
+.feature h3{
+    font-size: 24px;
+}
+.feature:hover{
+    color: #1886c7;
+    cursor: pointer;
+}
+.history h2{
+    border-left: 5px solid #1886c7;
+    padding-left: 20px;
+    margin-top: 22%;
+}
+.history p{
+    line-height: 28px;
+}
+.team .card{
+    border: none;
+    opacity: 0.7;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.team .card p{
+    font-size: 14px;
+    width: 93%;
+}
+.team .card:hover{
+    opacity: 1;
+}
+.team .fa{
+    font-size: 24px;
+}
+.whatWeDo{
+    background: linear-gradient(rgba(0, 0, 0, .7),rgba(0, 0, 0, .7)),url("https://upload.wikimedia.org/wikipedia/commons/3/3d/Code-1076536.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.caseStudy{
+    background: #f4f5f9;
+    line-height: 28px;
+}
+.caseArea{
+    background: #fff;
+    margin-top: 20px;
+    margin-right: -40px;
+    z-index: 100;
+    padding: 40px;
+    position: relative;
+    min-height: 420px;
+}
+.caseStudy h3{
+    color: #1886c7;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.caseStudy .fa{
+    font-size: 40px;
+    color:#1886c7; 
+}
+.caseImage img{
+    width: 100%;
+    height: 460px;
+    margin-left: -40px;
+}
+.portfolia .col-md-3{
+    padding-left: 0;
+    padding-right: 0;
+}
+.portfolia h4{
+    font-size: 16px;
+    font-weight: 300;
+}
+.portfolia .fa{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.portfolia p{
+    font-size: 14px;
+    font-weight: 300;
+}
+.imageContainer{
+    position: relative;
+    cursor: pointer;
+}
+.imageText{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+}
+.imageOverlay{
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   height: 100%;
+   width: 100%;
+   background: #1886c7;
+   opacity: 0;
+   transition: 1s ease;
+}
+.imageContainer:hover .imageOverlay{
+    opacity: .7;
+}
+.testimonials{
+    background: linear-gradient(rgba(0, 0, 0, .7),rgba(0, 0, 0, .7)),
+    url("http://www.interlogicbmn.com/wp-content/uploads/2017/11/20170731071447-paperwork-read-write-discuss-review-2.jpg");
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.quote{
+    color: rgba(24, 134, 199, .6);
+    margin-bottom: 10px;
+}
+.carousel-item img{
+    opacity: .1;
+}
+.blockquote-footer{
+    color: #1886c7;
+}
+.contact{
+    background: #f4f5f9;
+}
+.contact .input-group-addon{
+    width: 40px;
+    border-radius: 0;
+    color: #fff;
+    background: #1886c7;
+}
+.contact .form-control, .contact .btn{
+    border-radius: 0;
+}
+.input-group-addon .fa{
+    font-size: 23px;
+    height:40px;
+    line-height: 40px;
+}
