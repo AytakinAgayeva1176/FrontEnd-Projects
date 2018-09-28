@@ -1,0 +1,99 @@
+.navbar-custome{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: rgba(0,0,0,.7);
+}
+.navbar-custome .navbar-brand{
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    font-weight: 700;
+}
+.wonder{
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(0deg,#ff6a00 0,#ee0979 100%);
+    padding-top: calc(13rem + 55px);
+    padding-bottom: 13rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.wonder-content{
+    z-index: 1;
+    position: relative;
+}
+.first-content{
+    font-size: 74px;
+}
+.second-content{
+    font-size: 44px
+}
+.wonder .bg-circle{
+    z-index: 0;
+    position: absolute;
+    border-radius: 100%;
+    background: linear-gradient(0deg,#ee0979 0,#ff6a00 100%);
+}
+.wonder .bg-circle-1{
+    height: 90rem;
+    width: 90rem;
+    bottom: -55rem;
+    left: -55rem;
+}
+.wonder .bg-circle-2{
+    height: 50rem;
+    width: 50rem;
+    top: -25rem;
+    right: -25rem;
+}
+.wonder .bg-circle-3{
+    height: 20rem;
+    width: 20rem;
+    bottom: -10rem;
+    right: 5%;
+}
+.wonder .bg-circle-4{
+    height: 30rem;
+    width: 30rem;
+    top: -5rem;
+    right: 35%;
+}
+.btn-primary{
+    background-color: #ee0979;
+    border-color: #ee0979;
+}
+.btn-round{
+    border-radius: 5rem;
+}
+.btn-text{
+    text-transform: uppercase;
+    padding: 24px 48px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: .1rem;
+} 
+.bg-footer{
+    background-color: #000!important;
+}
+section h2{
+    color: black;
+}
+@keyframes myAnim{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+.img-photo{
+    transition: all 0.5s linear;
+}
+.img-photo:hover{
+    animation: myAnim 1s infinite linear
+}
+
+
+

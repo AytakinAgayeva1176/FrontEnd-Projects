@@ -1,0 +1,130 @@
+.leads,.register{
+    position: relative;
+    background: url('../img/bg-masthead.jpg') no-repeat center center;
+    background-size: cover;
+    background-color: #343a40;
+}
+.leads{
+    padding-top: 18.5%;
+    padding-bottom: 19%;
+}
+.register{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.leads .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .3;
+    background-color: #212529;
+}
+.leads .leads_title h1{
+    font-size:46px;
+}
+.packages{
+    padding:126px 0px;
+}
+.packages .item{
+    max-width: 360px;
+}
+.packages .item .icon{
+    font-size: 72px;
+    color: rgba(29, 145, 253, 0.582);
+    margin-bottom: 15px;
+}
+.packages .item .icon,.testimonials .item img{
+    transition: .3s all;
+}
+.packages .item .icon:hover,.testimonials .item img:hover{
+    transform: scale(1.1);
+ }
+.showcase .showcase_img{
+    background-size: cover;
+    min-height: 480px;
+}
+.showcase .showcase_img.img-1{
+    background: url(../img/1.jpg);
+}
+.showcase .showcase_img.img-2{
+    background: url(../img/2.jpg);
+}
+.showcase .showcase_img.img-3{
+    background: url(../img/3.jpg);
+}
+.showcase .showcase-content p,.showcase .showcase-content h2{
+    padding: 0px 126px;   
+}
+.showcase .showcase-content p,.content{
+    font-weight: 300;
+    font-size: 20px;
+}
+.showcase .showcase-content h2{
+    font-size: 30px;
+}
+.testimonials{
+    padding: 45px 0px;
+}
+ .testimonials .item{
+     max-width: 308px;
+}
+.testimonials .item img{
+    max-width: 192px;
+    box-shadow: 0 5px 5px 0 #adb5bd;
+    margin-bottom: 20px;
+}
+.testimonials .content_test{
+    font-weight: 300;
+    font-size: 15px;
+}
+ footer .social ul li a{
+     display: inline-block;
+     font-size: 30px;
+     border-radius: 20px;
+     border: 1px solid black;
+     color: aquamarine;
+     margin-left:10px;
+     width: 50px;
+     height: 50px;
+     text-align: center;
+     transition: .3s all;
+ }
+ footer .social ul li a:hover{
+     background:rgb(13, 109, 136);
+     color: antiquewhite;
+ }
+ @media screen and (max-width: 767px) {
+     .leads .login button,.register .login button{
+         display: block;
+         width: 100%;
+     }
+     .leads .leads_title h1{
+         margin-top: 20px;
+         font-size: 20px;
+     }
+     .register h2, .testimonials h2{
+         font-size: 25px;
+     }
+     .testimonials .item{
+         margin-bottom: 37px;
+     }
+     .showcase .showcase-content h2,.showcase .showcase-content p{
+        font-size: 18px;
+        padding: 0 60px;
+        margin: 30px 0px;
+     }
+  }
+  @media screen and (min-width:768px){
+    .showcase .showcase-content h2,.showcase .showcase-content p{
+        font-size: 20px;
+        padding: 0 30px;
+        margin: 30px 0px;
+     }
+  }
+
+
+
+
+

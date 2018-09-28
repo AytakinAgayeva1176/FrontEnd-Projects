@@ -1,0 +1,123 @@
+.navbar-brand{
+    color: white !important;
+    margin: auto;
+}
+.navbar-brand img{
+    width: 100px;
+}
+
+.bg-light{
+    background: #bd5d38!important;
+
+}
+.flex-column a{
+    color: white;
+}
+
+.intro{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+.intro .content{
+    padding: 200px 20px;
+}
+.intro .content h1{
+    font-size: 80px;
+    font-weight: 700;
+}
+.intro .content span{
+    color: #bd5d38;
+}
+.intro .content ul{
+    margin:0;
+    padding: 0;
+}
+.intro .content ul li{
+    display: inline-block;
+    margin:20px;
+}
+.intro .content ul li a{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+    background: rgba(34, 33, 33, 0.848);
+    color: white;
+    text-align: center;
+    border-radius: 100%;
+}
+.col-md-3{
+    text-align: right;
+    color: #bd5d38;
+}
+.experience{
+    padding:0 20px;
+    margin-bottom: 70px;
+}
+.experience h2{
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+.experience h3{
+    color: black;
+}
+.experience h4{
+    color:rgb(97, 97, 97);
+}
+.experience p{
+    color:rgb(97, 97, 87);
+}
+.experience ul{
+    padding:0;
+    margin:0;
+}
+.experience ul li{
+    display: inline-block;
+    margin: 10px;
+}
+.experience ul li a{
+    display: inline-block;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    border-radius: 100%;
+    text-decoration: none;
+}
+.experience ul li a:hover{
+    color: #bd5d38;
+}
+
+.experience .list li{
+    display: block;
+}
+
+@media (max-width: 800px){
+    .intro .content h1{
+        font-size: 40px;
+        font-weight: 700;
+    }
+}
+@media (min-width: 992px){
+
+
+#verticalNav{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height:100vh;
+}
+.navbar-collapse{
+    align-items: flex-start;
+}
+.container-fluid{
+    padding-left: 240px;
+  
+}
+}
+
+
+
