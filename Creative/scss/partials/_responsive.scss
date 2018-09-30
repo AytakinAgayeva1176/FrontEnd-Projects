@@ -1,0 +1,59 @@
+@media screen and (max-width:768px){
+    .navbar{
+        .navbar-toggler{
+            background: white!important;
+            outline: none;
+        }
+        .navbar-collapse{
+            .nav-link{
+             color: white!important;
+          }
+        }
+    }
+    header.scrolled{
+        .navbar{
+            .navbar-collapse{
+                .nav-link{
+                 color: black!important;
+              }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .after-red{
+        font-size: $text-size*1.5!important;
+    }
+    .after-white{
+        font-size: $text-size*1.7!important;
+    }
+    p{
+        font-size: $text-size/1.4!important;
+    }
+}
+
+@media screen and (min-width:767px){
+    .after-red{
+        font-size:$text-size*2!important; 
+    }
+    p{
+        font-size: $text-size/1.2!important;
+    }
+    
+     #portfolio{
+         .portfolio{
+             img{
+                 width: 100%;
+             }
+         }
+     }
+     #services{
+      .service{
+          margin-top: 8px;
+          h3{
+              font-size: $text-size;
+          }
+      }
+     }
+}

@@ -1,0 +1,89 @@
+//padding
+.sp{
+    padding: 128px 0px;
+}
+
+//Button
+%y-btn{
+   display: inline-block;
+   padding: 13px 30px;
+   border-radius: 27px;
+   margin-top: 15px;
+   font-weight: bold;
+   &:hover{
+       text-decoration: none;
+   }
+   @include setTransitions(all,.3s);
+}
+.btn-red{
+  @extend %y-btn;
+  background: $primary-color;
+  &:hover{
+    background: darken($primary-color, 5);
+    color: white;
+  }
+  color: white;
+}
+.btn-white{
+   @extend %y-btn;
+   background: white;
+   &:hover{
+    background: darken($secondary-color, 5);
+    color: black;
+  }
+   color: black;
+}
+
+//after
+%y-after{
+  position: relative;
+  margin-bottom: 35px;
+  padding-bottom: 35px;
+  &::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 45px;
+    height: 3px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
+.after-red{
+  @extend %y-after;
+  &::after{
+    background-color: $primary-color;
+  }
+}
+.after-white{
+  @extend %y-after;
+  &::after{
+    background-color: white;
+  }
+}
+
+//scrollIt
+.button-top{
+  position: fixed;
+  bottom: -200px;
+  right: 30px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  background-color: #515A5F;;
+  color: #fff;
+  text-align: center!important;
+  z-index: 99;
+  font-size: $text-size;
+  opacity: .5;
+  @include setTransitions(all,0.5s);
+  cursor: pointer;
+  &:hover {
+    opacity: .8;
+  }
+  &.button-show {
+    bottom: 20px;
+  }
+}
+
